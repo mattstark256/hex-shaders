@@ -321,7 +321,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -334,13 +334,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.14917299, y: -0, z: -0, w: 0.98881114}
-  m_LocalPosition: {x: 0, y: 1.5, z: -2.5}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: 0, y: 1.5, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1228529076}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 17.158, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 788b039d0f991114b98e89e1db1904c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectMaterial: {fileID: 2100000, guid: fbc6d6f9e9e662f4c90adb5df06c8292, type: 2}
+  effectMaterial: {fileID: 2100000, guid: 028526ac165039b4e9fede2fb5380d7a, type: 2}
 --- !u!1 &1228529074
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b02ac2b19cb606e4b921cde0523411ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 45
+  rotateSpeed: 20
 --- !u!4 &1228529076
 Transform:
   m_ObjectHideFlags: 0
